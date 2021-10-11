@@ -60,7 +60,7 @@ async def start(_, message):
         await message.reply_text(messagegroup)
         return
     else:
-        buttons = [[InlineKeyboardButton("Github", url="https://github.com/FIREEEBOT/ESCHAT"),
+        buttons = [[InlineKeyboardButton("Github", url="https://t.me/ESdeathnet"),
                     ]]
         await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
 
